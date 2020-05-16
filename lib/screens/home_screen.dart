@@ -61,7 +61,6 @@ class HomeScreen extends StatelessWidget {
               itemCount: snapshot.data.documents.length,
               itemBuilder: (context, index) {
                 return Container(
-                    height: 30.0,
                     alignment: Alignment.center,
                     margin: EdgeInsets.all(2),
                     padding: EdgeInsets.symmetric(horizontal: 5),
